@@ -86,6 +86,9 @@ h1 {
 }
 
 .foto-mensaje p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50vh;
     font-family: monospace, sans-serif;
     margin-left: 15px;
@@ -104,6 +107,9 @@ h1 {
 }
 
 .foto-mensaje2 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: right;
     width: 50vh;
     margin-right: 15px;
@@ -125,7 +131,10 @@ h1 {
 }
 
 .mensaje3 p {
+    text-align: center;
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right: 15px;
     font-size: 1em;
     font-family: monospace, sans-serif;
@@ -187,6 +196,39 @@ h1 {
         font-size: 0.7em;
     }
     .foto-mensaje {
+        width: 29vh;
+    }
+    .foto-mensaje2{
+        width: 29vh;
+    }
+
+    .conejito1 {
+        width: 14vh;
+    }
+
+    .conejito2{
+        width: 16vh;
+    }
+
+    .foto-mensaje p {
+        font-size: 0.7em;
+    }
+    .foto-mensaje2 p {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width:425px) {
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    .section2 p {
+        width: 42vh;
+        font-size: 0.7em;
+    }
+    .foto-mensaje {
         width: 50vh;
     }
     .foto-mensaje2{
@@ -194,11 +236,44 @@ h1 {
     }
 
     .conejito1 {
-        width: 19vh;
+        width: 14vh;
     }
 
     .conejito2{
-        width: 19vh;
+        width: 16vh;
+    }
+
+    .foto-mensaje p {
+        font-size: 0.9em;
+    }
+    .foto-mensaje2 p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width:279px) {
+
+    h1 {
+        font-size: 1.4em;
+    }
+
+    .section2 p {
+        width: 30vh;
+        font-size: 0.6em;
+    }
+    .foto-mensaje {
+        width: 38vh;
+    }
+    .foto-mensaje2{
+        width: 38vh;
+    }
+
+    .conejito1 {
+        width: 12vh;
+    }
+
+    .conejito2{
+        width: 14vh;
     }
 
     .foto-mensaje p {
