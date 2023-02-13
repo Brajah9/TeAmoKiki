@@ -176,4 +176,36 @@ h1 {
     }
 }
 
+@media (max-width:375px) {
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    .section2 p {
+        width: 42vh;
+        font-size: 0.7em;
+    }
+    .foto-mensaje {
+        width: 50vh;
+    }
+    .foto-mensaje2{
+        width: 50vh;
+    }
+
+    .conejito1 {
+        width: 19vh;
+    }
+
+    .conejito2{
+        width: 19vh;
+    }
+
+    .foto-mensaje p {
+        font-size: 0.7em;
+    }
+    .foto-mensaje2 p {
+        font-size: 0.7em;
+    }
+}
 
