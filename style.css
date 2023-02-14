@@ -31,16 +31,12 @@ h1 {
     
 }
 
-/* Parte 1 */
-
 .header2 {
     
     display: flex;
     justify-content: center;
     background-color: #8D9EFF;
 }
-
-/* Parte 2 */
 
 .section {
     
@@ -49,8 +45,6 @@ h1 {
     background-color: #8D9EFF;
     
 }
-
-/* Footer */
 
 .section2 {
 
@@ -161,8 +155,6 @@ h1 {
     width: 60vh;
     text-align: center;
 }
-
-/**/
 
 @media (max-width:800px) {
     .mensaje3 p {
